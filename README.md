@@ -11,6 +11,10 @@ The GitHub Matrix Screensaver for Mac OSX shows a constant stream of recent comm
 
 <img src="http://winterbe.com/image/matrix.png">
 
+For more infos about the GitHub Matrix see this repository:
+
+### https://github.com/winterbe/github-matrix
+
 ## Install (Mac OSX only)
 
 * Fork or clone this project, then double click the file `Web.saver` in the project folder.
