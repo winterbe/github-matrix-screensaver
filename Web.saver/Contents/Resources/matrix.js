@@ -6,8 +6,20 @@
     var canvas = document.getElementById("matrix");
 
     // fullscreen canvas
-    canvas.height = window.innerHeight;
-    canvas.width = window.innerWidth;
+    if (window.devicePixelRatio && window.devicePixelRatio > 1) {
+        // Use higher resolution on retina displays
+        var canvasWidth = window.innerWidth;
+        var canvasHeight = window.innerHeight;
+
+        canvas.width = canvasWidth * window.devicePixelRatio;
+        canvas.height = canvasHeight * window.devicePixelRatio;
+        canvas.style.width = canvasWidth + "px";
+        canvas.style.height = canvasHeight + "px";
+        canvas.getContext('2d').scale(window.devicePixelRatio, window.devicePixelRatio);
+    } else {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+    }
 
     var Pool = function (size) {
         var data = [];
