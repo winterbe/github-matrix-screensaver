@@ -18,11 +18,11 @@ For more infos about the GitHub Matrix see this repository:
 ## Install (Mac OSX only)
 
 * Fork or clone this project, then double click the file `Web.saver` in the project folder.
-* Open the Mac OSX preferences, choose Screensaver and activate `Web`
+* Open the Mac OSX preferences, choose Screensaver and activate `Matrix`
 
 ## Uninstall
 
-Open the Mac OSX preferences, choose Screensaver, right click on `Web` and choose delete.
+Open the Mac OSX preferences, choose Screensaver, right click on `Matrix` and choose delete.
 
 ## Contribute
 
