@@ -20,6 +20,14 @@ For more infos about the GitHub Matrix see this repository:
 * Fork or clone this project, then double click the file `Web.saver` in the project folder.
 * Open the Mac OSX preferences, choose Screensaver and activate `Matrix`
 
+Unfortunately I had to turn of the backend server because Heroku has
+changed their free plans and I don’t wanna risk to get into payment range.
+So the screensaver does no longer work out of the box. However you could
+host your own server and use the screensaver with your host. The server
+code is freely available on my profile.
+
+Cheers.
+
 ## Uninstall
 
 Open the Mac OSX preferences, choose Screensaver, right click on `Matrix` and choose delete.
