@@ -1,4 +1,4 @@
-The GitHub Matrix Sceensaver
+The GitHub Matrix Screensaver
 ====================
 
 <blockquote>The latest commits from GitHub visualized in a Matrix-style animation.</blockquote>
